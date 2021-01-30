@@ -63,18 +63,18 @@ function setup() {
    plinkos[i].display();
  }
  
- for (var j = 0 ;j < particles.length;j++){
-  particles[j].display();
- }
+// for (var j = 0 ;j < particles.length;j++){
+ // particles[j].display();
+ //}
 
- for(var k = 0 ; k < divisions.length;k++){
-  divisions[k].display();
- }
+ //for(var k = 0 ; k < divisions.length;k++){
+  //divisions[k].display();
+// }
  
-   if (frameCount%60===0){
-   particles.push(new Particle(random(width/2-10,width/2+10),10,10));
-   score++;
- }
+//   if (frameCount%60===0){
+//   particles.push(new Particle(random(width/2-10,width/2+10),10,10));
+ //  score++;
+// }
 
    if(gameState =="end"){
      textSize(100);
